@@ -33,9 +33,11 @@ export default function RootLayout() {
     if (!loaded) {
         return null
     }
-
+    
     return <RootLayoutNav />
 }
+
+console.log('RootLayout.tsx loaded')
 
 function RootLayoutNav() {
     return (
